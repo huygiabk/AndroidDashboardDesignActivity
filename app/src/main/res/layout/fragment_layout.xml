@@ -1,0 +1,48 @@
+
+
+<com.example.vanhuy.androiddashboarddesignactivity
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/news_feed_button"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/news_feed_button"
+        android:text="News Feed" />
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/friends_button"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/friends_button"
+        android:text="Friends" />
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/messages_button"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/messages_button"
+        android:text="Messages" />
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/places_button"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/places_button"
+    <Button
+        android:text="Places" />
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/events_button"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/events_button"
+        android:text="Events" />
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/photos_button"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/photos_button"
+        android:text="Photos" />
+
+</com.example.vanhuy.androiddashboarddesignactivity>
