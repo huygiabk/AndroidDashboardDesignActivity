@@ -1,10 +1,10 @@
 package com.example.vanhuy.androiddashboarddesignactivity;
 
 
-    import android.content.Context;
-    import android.util.AttributeSet;
-    import android.view.View;
-    import android.view.ViewGroup;
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.ViewGroup;
 
 
 public class DashboardLayout extends ViewGroup{
@@ -76,6 +76,7 @@ public class DashboardLayout extends ViewGroup{
         final int count = getChildCount();
 
         // Calculate the number of visible children.
+        //first comment for Github-------
         int visibleCount = 0;
         for (int i = 0; i < count; i++) {
             final View child = getChildAt(i);
@@ -109,7 +110,7 @@ public class DashboardLayout extends ViewGroup{
 
             spaceDifference = Math.abs(vSpace - hSpace);
             if (rows * cols != visibleCount) {
-                spaceDifference *= UNEVEN_GRID_PENALTY_MULTIPLIER;
+                //spaceDifference *= UNEVEN_GRID_PENALTY_MULTIPLIER;
             }
 
             if (spaceDifference < bestSpaceDifference) {
@@ -167,4 +168,4 @@ public class DashboardLayout extends ViewGroup{
 }
 
 
-}
+
